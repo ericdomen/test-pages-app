@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio_sync",
+  "version": "1.0.0",
+  "description": "Ejemplo de sincronización",
+  "main": "server/server.js",
+  "homepage": "https://sergiohvazquezb.github.io/pruebaSync/public/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
