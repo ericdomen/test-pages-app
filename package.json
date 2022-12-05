@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
-    "dev": "nodemon server/server.js"
+    "dev": "nodemon server/server.js",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d start"
   },
   "author": "",
   "license": "ISC",
